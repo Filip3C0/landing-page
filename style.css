@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap');
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background:#052c67;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+
+}
+header{
+    margin: 36px 0 0 0;
+}
+nav {
+    position: absolute;
+    margin-bottom: 45px;
+    left: 0;
+    padding: 30px;
+    font-size: 28px;
+    font-weight: 100;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 35px;    
+
+}
+nav li:hover{
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    color: #0CB9D4;
+    letter-spacing: 2px;
+}
+
+.circle{
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    background-color: #0aa0b8;
+    box-shadow: 0 300px 700px 180px #0aa0b8;
+    right: -400px;
+    top: -600px;
+    
+    
+}
+.logo{
+    float: right;
+    font-size: 2rem;
+    font-weight: 100;
+    margin: 30px 60px 0 0;
+    position: relative;
+   
+}
+.description{
+    padding-top: 200px;
+    padding-left: 70px;
+}
+.description h1{
+    font-size: 70px;
+
+}
+.description-text{
+    height: 70px;
+    width: 700px;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: justify;
+    padding-top: 70px;
+}
+.rocket-image{
+    float: right;
+    margin-top: -200px;
+}
+img{
+    width: 1000px;
+    margin-top: -170px;
+    position: relative;
+}
+button{
+    margin-left: 70px;
+    margin-top: 200px;
+    width: 170px;
+    height: 50px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right,#0ed2f0,#0c488d);
+    letter-spacing: 2px;
+    outline: none;
+}
+button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+button:active{
+    opacity: 0.7;
+}
